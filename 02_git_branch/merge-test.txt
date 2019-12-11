@@ -1,6 +1,2 @@
 Hello Merge
-<<<<<<< HEAD
-Hello world in java>?...
-=======
 Hello python...
->>>>>>> feature/board
