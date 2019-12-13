@@ -6,7 +6,7 @@ token = config('TELEGRAM_BOT_TOKEN')
 chat_id = config('CHAT_ID')
 text = 'hello'
 
-url = f'{base}/bot/{token}/sendMessage?chat_id={chat_id}&text={text}'
+url = f'{base}/bot{token}/sendMessage?chat_id={chat_id}&text={text}'
 send_message = requests.get(url)
 
 print(send_message)
