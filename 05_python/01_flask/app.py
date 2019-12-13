@@ -101,6 +101,12 @@ def vonvon():
 def godmade():
     name = request.args.get('name')
     first_list = ['잘생김', '못생김', '어중간'] 
+    second_list = ['똑똑함', '바보', '어리버리']
+    third_list = ['예술', '공대감성', '언어']
+    first = random.choice(first_list)
+    second = random.choice(second_list)
+    third = random.choice(third_list)
+    return render_template('godmademe.html', name = name, )
     
        
 if __name__=='__main__':
