@@ -14,5 +14,3 @@ $ git config --global user.email
 
 
 ### TIL == Today I Learned
-
-> '하루에 하나의 커밋을 찍겠다~!'
